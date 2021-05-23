@@ -1,0 +1,119 @@
+<div class="row">
+    <div class="col-lg-8 col-md-6 col-sm-12">
+        <div class="row">
+            <div class="col-3" style="height: min-content;">
+                <img class="img-fluid rounded-circle" src="assets/profile.jpg" alt="">
+            </div>
+            <div class="col-9" style="height: min-content;">
+                <div class="form-group">
+                    <label for="template-name">Template Name</label>
+                    <input type="email" class="form-control" id="template-name" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="password" class="form-control" id="subject" placeholder="Password">
+                </div>
+            </div>
+
+            <div class="col-12">
+                <label class="" for="message"><span>Message</span></label>
+                <div class="form-group">
+
+                    <textarea class="form-control" name="message" id="message" rows="6"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="card my-4" style="width: 18rem;">
+            <img class="img-fluid" src="assets/320x200.png" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Button</a>
+                <a href="#" class="btn btn-light m-1">Button</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-8 col-md-6 col-sm-12">
+        <label class="form-label" for="dropdownMenuLink">Message Type</label>
+        <div class="dropdown form-group">
+
+            <a class="btn btn-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+               aria-expanded="false">
+                Choix des notifications
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Email</a></li>
+                <li><a class="dropdown-item" href="#">Push</a></li>
+                <li><a class="dropdown-item" href="#">Email + Push</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+        <label for="inlineFormSelectPref">Tap target</label>
+        <select class="form-select" id="inlineFormSelectPref">
+            <option selected>Profile Screen</option>
+            <option value="1">Some</option>
+            <option value="2">Other</option>
+            <option value="3">Options</option>
+        </select>
+    </div>
+    <div class="col-lg-8 col-md-6 col-sm-12 mt-3">
+        <label class="form-check-label">Send to Group</label>
+        <div class="form-check">
+            <label class="form-check-label" for="management">Top Management</label>
+            <input class="form-check-input" type="checkbox" value="" id="management" checked>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="marketing">Marketing Departement</label>
+            <input class="form-check-input" type="checkbox" value="" id="marketing">
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="design">Design Departement</label>
+            <input class="form-check-input" type="checkbox" value="" id="design" checked>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="financial">Financial Departement</label>
+            <input class="form-check-input" type="checkbox" value="" id="financial">
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="supply">Supply Departement</label>
+            <input class="form-check-input" type="checkbox" value="" id="supply">
+        </div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 mt-3">
+        <label class="form-check-label">Set Type</label>
+        <div class="form-check">
+            <label class="form-check-label" for="news"><span class="badge bg-success">News</span></label>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="news">
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="reports"><span class="badge bg-info">Reports</span></label>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="reports" checked>
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="documents"><span class="badge bg-warning">Documents</span></label>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="documents">
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="media"><span class="badge bg-primary">Media</span></label>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="media">
+        </div>
+        <div class="form-check">
+            <label class="form-check-label" for="text"><span class="badge bg-secondary">Text</span></label>
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="text">
+        </div>
+    </div>
+    <div class="col-lg-4 mt-3">
+        <button class="btn btn-primary px-5">Valider</button>
+        <button class="btn btn-light px-3 ms-3">Annuler</button>
+    </div>
+    <div class="col-lg-4"></div>
+    <div class="col-lg-4 mt-3">
+        <button class="btn btn-danger px-5">Supprimer</button>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+.datatable-info-padding>div {
+  padding: 0 !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button
+{
+  min-width: 0.2em; !important
+}

@@ -1,0 +1,56 @@
+<div class="row px-2">
+    <button class="btn btn-success col-sm-3 col-md-auto me-auto mb-2" data-bs-toggle="modal" data-bs-target="#hive-edit" data-bs-action="create">Ajouter une ruche</button>
+    <input class="col-sm-6 col-md-auto" placeholder="Rechercher..." type="text" aria-label="Hive search" id="hive-search-field"/>
+</div>
+
+<hr/>
+<table id="hives-list" class="display table table-striped" style="width:100%"></table>
+<!-- Modals -->
+<div class="modal fade" id="hive-edit" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Modifier une ruche</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="hive-modal-name" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="hive-modal-name" required="required">
+                    </div>
+                    <div class="mb-3">
+                        <label for="hive-modal-longitude" class="form-label">Longitude</label>
+                        <input type="text" class="form-control" id="hive-modal-longitude" required="required">
+                    </div>
+                    <div class="mb-3">
+                        <label for="hive-modal-latitude" class="form-label">Latitude</label>
+                        <input type="text" class="form-control" id="hive-modal-latitude" required="required">
+                    </div>
+                </form>
+            </div>
+           <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                <button type="button" class="btn btn-primary" id="hive-modal-save">Enregistrer</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="hive-delete" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Supprimer</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Annuler</button>
+                <button type="button" class="btn btn-danger" id="hive-modal-delete">Supprimer</button>
+            </div>
+        </div>
+    </div>
+</div>
